@@ -133,7 +133,7 @@ def start(bot: Bot, update: Update, args: List[str]):
          
 
         update.effective_message.reply_text("Heya, How can I help you? 🙂",reply_markup=InlineKeyboardMarkup(
-                                                [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="♻️ Mai Repo",url="https://github.com/No-OnE-Kn0wS-Me/Filterbot")]]))
+                                                [[InlineKeyboardButton(text="❓ Help",url="t.me/{}?start=help".format(bot.username)),InlineKeyboardButton(text="♻️ Mai Repo",url="https://github.com/jikkubot")]]))
                                   
 # for test purposes
 def error_callback(bot, update, error):
